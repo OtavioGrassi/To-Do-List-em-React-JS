@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+body{
+    font-family: Arial;
+    background-color: #F4F4F4;
+    padding: 30px;
+    color: #333;
+    background-image: url(img/background-blue.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+    max-width: 600px;
+    margin: 0 auto  300px;
+    background-color: #efefef;
+    padding: 20px 30px;
+    border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2{
+    margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+p{
+    margin: 10px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #127bca;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+.todo-list{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #555;
+}
+
+.todo{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.complete{
+    background-color: #5cb85c;
+}
+
+.remove{
+    background-color: #d9534f;
+}
+
+.todo-form{
+    padding-bottom: 1,5rem;
+}
+
+input, select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.filter{
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.filter-options{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.filter-options div{
+    flex: 1 1 0;
 }
