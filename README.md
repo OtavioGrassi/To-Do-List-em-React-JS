@@ -46,8 +46,8 @@ npm install
 4. **Inicie o servidor de desenvolvimento:**
 npm start
 
-5. **Inicie o servidor de desenvolvimento:**
-[npm start](http://localhost:3000)
+5. **Abra o navegador e acesse:**
+http://localhost:3000
 
 ## 📸 Captura de Tela
 
